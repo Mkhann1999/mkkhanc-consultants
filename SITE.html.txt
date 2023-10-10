@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Financial Consultancy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Your Financial Consultancy</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Your Financial Consultancy, where we provide expert financial advice and guidance to help you achieve your financial goals.</p>
+    </section>
+    
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Investment Planning</li>
+            <li>Retirement Planning</li>
+            <li>Debt Management</li>
+            <li>Tax Consulting</li>
+            <li>Financial Education</li>
+        </ul>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or would like to schedule a consultation, please fill out the form below:</p>
+        <form action="contact.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Your Financial Consultancy</p>
+    </footer>
+</body>
+</html>
